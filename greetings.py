@@ -1,12 +1,12 @@
-username = 'имя пользователя'
-title = 'заголовок заметки'
-content = 'описание заметки'
-status = 'статус заметки'
-created_date = '27-12-2024'
-issue_date = '31-12-2024'
-print(username)
-print(title)
-print(content)
-print(status)
-print(created_date)
-print(issue_date)
+username = 'Сергей' # Имя пользователя
+title = 'Покупка продуктов' # Заголовок заметки
+content = 'Купить молоко, хлеб, масло' # Описание заметки
+status = 'Активна' # Статус заметки
+created_date = '27-12-2024' # Дата создания заметки
+issue_date = '31-12-2024' # Дата истечения заметки
+print('Имя пользователя:', username)
+print('Заголовок заметки:', title)
+print('Описание заметки:', content)
+print('Статус заметки:', status)
+print('Дата создания заметки:', created_date)
+print('Дата истечения заметки:', issue_date)
