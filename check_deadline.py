@@ -4,17 +4,17 @@ from datetime import date
 current_date = datetime.date.today() #Создаем и выводим переменную с текущей датой
 print(f"Текущая дата:  {current_date.strftime('%d-%m-%Y')}")
 #print(type(current_date))
-
+#Запрос у пользователя даты дедлайна
 issue_date = input('Введите дату дедлайна в формате дата-месяц-год:')
 date_obj = datetime.datetime.strptime(issue_date, '%d-%m-%Y').date()
 #print(date_obj)
 #print(type(date_obj))
 
+#Определяем разницу в днях
 difference_date = date_obj - current_date
-#print(difference_date.days)
 difference_date1 = int(difference_date.days)
 
-
+#Запуск цикла для вывода информации о сроках дедлайна
 while True:
     if difference_date1 == 0:
         print("Дата дедлайна сегодня.")
